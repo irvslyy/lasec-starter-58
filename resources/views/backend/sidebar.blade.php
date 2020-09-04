@@ -62,7 +62,7 @@
                 <a href="#" class="nav-link"><i class="icon-database2"></i> <span>Master Data</span></a>
 
                 <ul class="nav nav-group-sub" data-submenu-title="Layouts">
-                    <li class="nav-item"><a href="{{route('master.index')}}" class="nav-link">Data Karyawan</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Data Karyawan</a></li>
                 </ul>
             </li>
             <li class="nav-item nav-item-submenu">

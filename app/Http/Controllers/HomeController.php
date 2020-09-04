@@ -25,11 +25,4 @@ class HomeController extends Controller
     {
         return view('home');
     }
-    public function indexApi()
-    {
-       $user = User::all();
-       return response()->json([
-        'usernya' => $user
-        ]);
-    }
 }

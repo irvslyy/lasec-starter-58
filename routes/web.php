@@ -15,13 +15,12 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-// Route::group(['middleware' => ['prevent-back']],function(){
-// });
-// Route::get('/users/json','HomeController@indexApi')->name('index.api');
-
+Route::group(['middleware' => ['prevent-back']],function(){
     Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');
+});
 
-    Route::get('/master/data/','MasterController@index')->name('master.index');
+
+
 
 
